@@ -1,0 +1,14 @@
+# RCCar GPIO 실행 가이드
+
+라즈베리파이에서 GPIO 핀을 제어하기 위해서는 root 권한이 필요합니다. 아나콘다 환경을 사용하고 계신다면 다음 명령어로 실행하세요:
+
+```bash
+sudo /home/test/anaconda3/envs/rc/bin/python /home/test/rccar/v1_justmoving/check_port.py
+```
+
+이 명령어는:
+1. sudo를 통해 관리자 권한으로 실행
+2. 아나콘다 환경(rc)의 파이썬 인터프리터를 명시적으로 지정
+3. 실행할 코드 파일의 전체 경로를 지정
+
+실행 후 문제가 계속된다면 오류 메시지를 확인하고 알려주세요.
